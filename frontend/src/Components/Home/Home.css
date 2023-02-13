@@ -1,0 +1,10 @@
+@media only screen and (max-width : 400px ) {
+    .home-margin{
+        padding: 10%;
+    }
+    .intro{
+        text-align: left;
+        line-height: 1em;
+        font-size: .87em;
+    }
+}
