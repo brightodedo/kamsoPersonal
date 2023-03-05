@@ -2,6 +2,7 @@ import React from 'react'
 import BookButton from '../BookButton/BookButton'
 import MyHeader from '../MyHeader/MyHeader'
 import './Home.css'
+import self from '../../Assets/profile/kamso1.jpeg'
 
 function Home() {
   return (
@@ -39,7 +40,11 @@ function Home() {
             <BookButton />
 
             {/* The home image  */}
-
+            <div className="home-profile">
+              <figure className='profile'>
+                <img src={self} alt="Kamso" />
+              </figure>
+            </div>
         </div>
     </div>
   )

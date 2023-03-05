@@ -1,0 +1,12 @@
+.connect{
+    scroll-snap-align: start;
+}
+
+@media only screen and (max-width : 400px ) {
+    .connect-margin{
+        padding: 10%;
+    }
+    .connect{
+        height: 884px;
+    }
+}

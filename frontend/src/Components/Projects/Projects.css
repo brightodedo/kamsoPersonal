@@ -1,0 +1,12 @@
+.projects{
+    scroll-snap-align: start;
+}
+
+@media only screen and (max-width : 400px ) {
+    .project-margin{
+        padding: 10%;
+    }
+    .projects{
+        height: 884px;
+    }
+}
