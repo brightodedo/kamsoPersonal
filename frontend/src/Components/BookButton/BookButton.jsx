@@ -6,7 +6,7 @@ function BookButton() {
   // the functionality for the button redrirection 
   const buttonFunctionality = () => {
     // Change this link to the main link later on
-    window.location.href = "https://www.youtube.com/";
+    window.location.href = "https://www.instagram.com/djkamso/";
   }  
 
   return (

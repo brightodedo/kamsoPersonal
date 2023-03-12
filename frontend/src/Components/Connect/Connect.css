@@ -2,6 +2,18 @@
     scroll-snap-align: start;
 }
 
+.o1{
+    background-image: url("https://knowtechie.com/wp-content/uploads/2017/03/instagram.jpg");
+}
+
+.o2{
+    background-image: url("https://chromeunboxed.com/wp-content/uploads/2021/01/Gmail-Clean.jpg");
+}
+
+.o3{
+    background-image: url("https://piunikaweb.com/wp-content/uploads/2021/04/snapchat-dark-mode-featured.jpg");
+}
+
 @media only screen and (max-width : 400px ) {
     .connect-margin{
         padding: 10%;
@@ -9,4 +21,44 @@
     .connect{
         height: 884px;
     }
+    .exp-div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 400px;
+        margin: 13.9px 0px;
+    }
+
+    .exp{
+        border: 1px solid;
+        flex: calc(1/3);
+        background-position: center;
+        background-size: cover;
+        filter: grayscale(.6);
+    }
+
+    .exp:hover{
+        flex: .8;
+        filter: saturate(1.05);
+        animation: saturize .45s;
+        cursor: pointer;
+    }
+
+    @keyframes saturize
+    {
+        0%{
+            filter: saturate(0);
+        }
+        30%{
+            filter: saturate(.5);
+        }
+        70%{
+            filter: saturate(.95);
+        }
+        100%{
+            filter: saturate(1.05);
+        }
+    }
+
+    
 }
