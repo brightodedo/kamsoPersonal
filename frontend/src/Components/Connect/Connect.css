@@ -19,7 +19,8 @@
         padding: 10%;
     }
     .connect{
-        height: 884px;
+        min-height: 100dvh;
+        max-height: 100dvh;
     }
     .exp-div{
         display: flex;
